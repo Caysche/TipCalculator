@@ -13,6 +13,7 @@
 		6227E52D1D8C678E00937817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6227E52B1D8C678E00937817 /* Main.storyboard */; };
 		6227E52F1D8C678E00937817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6227E52E1D8C678E00937817 /* Assets.xcassets */; };
 		6227E5321D8C678E00937817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6227E5301D8C678E00937817 /* LaunchScreen.storyboard */; };
+		6227E53B1D8C694D00937817 /* TipCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6227E53A1D8C694D00937817 /* TipCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6227E52E1D8C678E00937817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6227E5311D8C678E00937817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6227E5331D8C678E00937817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6227E5391D8C694D00937817 /* TipCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipCalculator.h; sourceTree = "<group>"; };
+		6227E53A1D8C694D00937817 /* TipCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				6227E5251D8C678E00937817 /* AppDelegate.h */,
 				6227E5261D8C678E00937817 /* AppDelegate.m */,
+				6227E5391D8C694D00937817 /* TipCalculator.h */,
+				6227E53A1D8C694D00937817 /* TipCalculator.m */,
 				6227E5281D8C678E00937817 /* ViewController.h */,
 				6227E5291D8C678E00937817 /* ViewController.m */,
 				6227E52B1D8C678E00937817 /* Main.storyboard */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6227E52A1D8C678E00937817 /* ViewController.m in Sources */,
+				6227E53B1D8C694D00937817 /* TipCalculator.m in Sources */,
 				6227E5271D8C678E00937817 /* AppDelegate.m in Sources */,
 				6227E5241D8C678E00937817 /* main.m in Sources */,
 			);

@@ -10,18 +10,30 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UITextField *billAmountTextField;
+
+@property (nonatomic, strong) TipCalculator *tipCalculator;
+
+@property (weak, nonatomic) IBOutlet UILabel *tipAmountLabel;
+
+@property (weak, nonatomic) IBOutlet UITextField *tipPercentageTextField;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    _tipCalculator = [[TipCalculator alloc] init];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)calculateTip:(UIButton *)sender {
+    self.tipAmountLabel.text = [self.tipCalculator calculateTip:self.billAmountTextField.text withPercentage:self.tipPercentageTextField.text];
 }
 
 @end
